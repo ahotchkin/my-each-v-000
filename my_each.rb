@@ -4,7 +4,7 @@ def my_each(array)
     while i < array.length
       yield(array[i])
       i += 0
-    end  
+    end
     array
   else puts "This block should not run!"
 end
